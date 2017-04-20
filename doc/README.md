@@ -5,10 +5,18 @@ This directory contains all the materials associated with Sabrina's replication.
 Determine whether morphological feature matching between the unpronounced material at the ellipsis site and its antecedent is relevant or not for ellipsis computation.
 
 ## Hypotheses
+Ellipses containing conflicting inflectional phi-features are more costly to process, compared to elliptical sentences without feature mismatch.
 
 ## Proposed methodology / design with example stimuli:
 
-### Proposed methodology and design:
+### Proposed methodology:
+
+* Eye-tracking: stimuli displayed in monitor (presented in black font against a white background). Only movements of the right eye are tracked (although viewing is binocular).
+* Standard 9-point calibration procedure before initiating the experiment.
+* Practice trials before the experiment.
+* In practice trials and actual experiment, subjects have to fixate on a black box at the left of the screen, coinciding with the beginning of the sentence. The target sentence appears only once the subject correctly fixates on the box. After reading each sentence, participants perform a yes/no grammaticality judgment about the sentence just read.
+
+### Proposed design:
 
 * The target material is elliptical structures with a 2x2 design. 
 * The first factor is **_Match_**: the number or gender features on the subject of the second clause either matches or mismatches with the antecedent. Number and gender are separately tested.
@@ -16,6 +24,7 @@ Determine whether morphological feature matching between the unpronounced materi
 * 80 sets of experimental items were constructed: in the first 40 sets, the gender feature was manipulated based on Match and SSC, while the number feature was kept constant on all arguments and predicates (i.e. singular). In the second set of 40 items, the number feature was manipulated while keeping the gender feature constant (i.e. masculine).
 * For every condition, a non-elliptical version was included. These served as fillers.
 * An additional 50 bi-clausal filler sentences were included. These were all ungrammatical due to subject-verb agreement errors.
+* Participants: (28) native speakers of Iberian Spanish. Instructions provided in Spanish.
 
 ### Example stimuli:
 
