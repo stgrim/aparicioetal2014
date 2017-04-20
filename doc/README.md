@@ -19,37 +19,37 @@ Determine whether morphological feature matching between the unpronounced materi
 
 ### Example stimuli:
 
-1. Elliptical Examples, Gender Set
-.. 1. Match, Unmarked SSC
+\- Elliptical Examples, Gender Set
+1. Match, Unmarked SSC
 El asistente es organizado y el jefe \[es organizado\] **también**.
 the.m.sg assistant.m.sg is organized.m.sg and the.m.sg boss.m.sg is organized.m.sg **too**
 
-.. 2. Mismatch, Unmarked SSC
+2. Mismatch, Unmarked SSC
 La asistenta es organizada y el jefe \[es organizado\] **también**.
 the.f.sg assistant.f.sg is organized.f.sg and the.m.sg boss.m.sg is organized.m.sg **too**
 
-.. 3. Mismatch, Marked SSC
+3. Mismatch, Marked SSC
 El asistente es organizado y la jefa \[es organizada\] **también**.
 the.m.sg assistant.s.msg is organized.m.sg and the.f.sg boss.f.sg is organized.f.sg **too**
 
-.. 4. Match, Marked SSC
+4. Match, Marked SSC
 La asistenta es organizada y la jefa \[es organizada\] **también**.
 the.f.sg assistant.f.sg is organized.f.sg and the.f.sg boss.f.sg is organized.f.sg **too**
 
-2. Elliptical Examples, Number Set
-..1. Match, Unmarked SSC
+\- Elliptical Examples, Number Set
+1. Match, Unmarked SSC
 El fugitivo es peligroso y el preso \[es peligroso\] **también**.
 the.m.sg fugitive.m is dangerous.m.sg and the.m.sg prisoner.m is dangerous.m.sg **too*
 
-..2. Mismatch, Unmarked SSC
+2. Mismatch, Unmarked SSC
 Los fugitivos son peligrosos y el preso \[es peligroso\] **también**.
 the.m.pl fugitives.m are dangerous.m.pl and the.m.sg prisoner.m is dangerous.m.sg **too*
 
-..3. Mismatch, Marked SSC
+3. Mismatch, Marked SSC
 El fugitivo es peligroso y los presos \[son peligrosos\] **también**.
 the.m.sg fugitive.m is dangerous.m.sg and the.m.pl prisoners.m are dangerous.m.pl **too*
 
-..4. Match, Marked SSC
+4. Match, Marked SSC
 Los fugitivos son peligrosos y los presos \[son peligrosos\] **también**.
 the.m.pl fugitives.m are dangerous.m.pl and the.m.pl prisoners.m are dangerous.m.pl **too*
 
