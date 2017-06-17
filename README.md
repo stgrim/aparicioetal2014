@@ -1,2 +1,6 @@
-# Sabrina's project
-This directory contains all the materials associated with Sabrina's replication.
+# Number Feature Mismatches under Ellipsis
+
+In cases of ellipsis, some identity or parallelism seems to be required between the antecedent and the material at the ellipsis site. However, sometimes mismatches are allowed, at least in some languages, such as Greek, Brazilian Portuguese, and Spanish. The question that arises then is whether morphological feature matching between the unpronounced material at the ellipsis site and its antecedent is actually relevant or not for ellipsis computation.
+
+This project was conceived as a partial replication of Aparicio, Franich, and Xiang (2014), who explore the hypothesis that ellipses containing conflicting morphological features are more costly to process, compared to elliptical sentences where the morphological feature match. If this hypothesis holds, the prediction is that instances of feature mismatches will lead to an increase in reading time (RT). In order to test this, a self-paced reading experiment was conducted on Amazon's Mechanical Turk, whose details can be found in the **_experiment_** folder. The stimuli I worked with included critical items with ellipsis, control items without ellipsis, and fillers. The actual stimuli used can be found in the **_data_** folder. The results from my MTurk experiment do not replicate those of Aparicio, Franich, and Xiang (2014), as I did not observe any significant changes in the participants' RT when they were exposed to mismatching cases of ellipsis. For the specifics of the data analysis, please consult the folder **_results_**.
+
