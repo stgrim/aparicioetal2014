@@ -1,0 +1,229 @@
+<html>
+<head>
+<title>Self-paced reading experiment</title>
+<meta charset="utf-8">
+<script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="mmturkey.0.5.js"></script> 
+<script type="text/javascript" src="exp3.js" charset="UTF-8"></script>
+<link rel="stylesheet" href="exp3.css"></link>
+</head>
+
+<body>
+  <noscript>This task requires JavaScript.</noscript>
+
+<div class='slide' id='intro'>
+<!-- <p class="center-text", id="mustaccept">You must accept the HIT before you can continue.</p> -->
+<p class="block-text">Te invitamos a participar de un experimento dise&#241;ado por el Departmento de Ling&#252;&iacute;stica de la Universidad de Stanford.</p>
+<p class="block-text">Te solicitaremos que leas 10 oraciones de a una palabra por vez y respondas preguntas sobre ellas.
+El experimento tomar&aacute; <strong>5</strong> minutos en total aproximadamente.</p>
+<p class="block-text">Este es un estudio dirigido a hablantes nativos de espa&#241;ol. Todas las oraciones e instrucciones de este estudio est&aacute;n en espa&#241;ol. Por favor, <u>te solicitamos que te abstengas de participar si espa&#241;ol <strong>no</strong> era el idioma que se hablaba en tu casa durante tu infancia</u>. Agradecemos tu comprensi&oacute;n.</p>
+<button type='button' id='gotoInstructions'>Proceder a las instrucciones</button>
+<p class="block-text" id="legal">Informaci&oacute;n legal: 
+Te invitamos a participar de una investigaci&oacute;n sobre producci&oacute;n y comprensi&oacute;n del lenguaje. El experimentador te pedir&aacute; que realices una tarea ling&#252;&iacute;stica, tal como leer oraciones o palabras, o inventar tus propias oraciones.
+Este estudio no involucra ning&uacute;n riesgo ni beneficio.
+Debes tener al menos 18 a&#241;os de edad para participar de este esperimento.
+Recibir&aacute;s una compensaci&oacute;n por tu participaci&oacute;n del monto publicado.</p>
+<p class="block-text" id="legal"> 
+Si has le&iacute;do este formulario y deseas participar del experimento, 
+por favor entiende que tu participaci&oacute;n es voluntaria y tienes derecho a discontinuar 
+tu participaci&oacute;n en cualquier momento sin consecuencias adversas. 
+Tienes derecho a negarte a realizar ciertas tareas.
+Tu anonimidad est&aacute; asegurada; los investigadores que han solicitado tu participaci&oacute;n no recibir&aacute;n informaci&oacute;n personal tuya.</p>
+<p class="block-text" id="legal">
+Si tienes preguntas acerca de este estudio, por favor contacta a Sabrina Grimberg a <a href="mailto:sabri.grim@gmail.com">sabri.grim@gmail.com</a>.</p>
+<p class="block-text" id="legal">
+Si accedes a participar, por favor procede a las instrucciones del experimento.</p>
+</div>
+
+<div class='slide' id='instructions'>
+<h2 class="center-text">As&iacute; es como funciona</h2>
+<p class="block-text">Por cada oraci&oacute;n en el experimento, ver&aacute;s una serie de l&iacute;neas. Cada l&iacute;nea representa una palabra en la oraci&oacute;n.<!-- </p>
+<p class="block-text"> --><!-- Inicialmente no ver&aacute;s las palabras que corresponden a las l&iacute;neas. -->
+La primera palabra se volver&aacute; visible cuando presiones la barra (<em>'SPACE'</em>). Lee la palabra y luego presiona <em>'SPACE'</em> nuevamente. Esto ocultar&aacute; la palabra y descubrir&aacute; la siguiente.<!-- </p> -->
+<!-- <p class="block-text">Procede de este modo --><!-- , <strong>leyendo cada palabra en la oraci&oacute;n a un ritmo normal</strong>, --> <!-- hasta que hayas le&iacute;do toda la oraci&oacute;n. Luego de cada frase <strong>deber&aacute;s recordar lo que acabas de leer</strong>. Presiona <em>'SPACE'</em> una vez m&aacute;s para pasar a la pantalla siguiente.</p> -->
+
+Cuando hayas le&iacute;do toda la oraci&oacute;n de este modo, presiona <em>'SPACE'</em> una vez mas para pasar a la pantalla siguiente.</p>
+
+<p class="block-text">En la siguiente pantalla aparecer&aacute; la pregunta: <em>&#191;Te parece que la frase suena bien o no?</em>. <!-- Para contestarla, deber&aacute;s determinar si la frase que acabas de leer te suena bien o no. --> <strong>Una frase suena bien si crees que podr&iacute;as decirla en ciertas circunstancias</strong>. Por el contrario, <strong>una oraci&oacute;n suena mal si crees que nunca la dir&iacute;as bajo ninguna circunstancia</strong>.</p>
+<p class="block-text"><!-- Cuando est&eacute;s decidiendo si una oraci&oacute;n te suena bien o mal, --> Por favor <strong>NO</strong> pienses en si la frase <q>est&aacute; bien dicha</q> seg&uacute;n la normativa o las reglas que quiz&aacute;s has aprendido en la escuela. Piensa, en cambio, si un hablante nativo del espa&ntilde;ol podr&iacute;a utilizarla en algunas situaciones (aun si crees que hay mejores modos de transmitir el mismo significado).</p>
+<p class="block-text">Es fundamental que <strong>NO te tomes mucho tiempo en leer las oraciones</strong>; nos interesan tus reacciones inmediatas. Por favor, lee cada frase con naturalidad, a una velocidad normal. </p>
+<p class="block-text">Presiona en tu teclado <em>'P'</em> o <em>'Q'</em> para seleccionar <em>S&Iacute;, la frase suena bien</em> o <em>NO, la frase no suena bien</em>.
+Habr&aacute; una peque&ntilde;a pausa luego de esta pantalla. Simplemente espera a que aparezca la siguiente oraci&oacute;n.</p>
+<p class="block-text">Cuando comience el experimento, por favor <strong>coloca tus dedos pulgares en la barra (<em>'SPACE'</em>) y tus dedos &iacute;ndices en las teclas <em>'P'</em> y <em>'Q'</em></strong>.</p>
+<!-- <br> -->
+<p class="block-text">Antes de empezar, tendr&aacute;s una etapa de pr&aacute;ctica para que te familiarices con el experimento. Para practicar, <strong>haz click en el bot&oacute;n</strong>.</p>
+<br>
+<button type='button' id='trainbutton'>&#161;Practicar!</button>
+</div>
+
+<div class='slide' id='endTraining'>
+<p class="center-text">La pr&aacute;ctica ha terminado.</p>
+<p class="center-text">Comienza el experimento haciendo click en el bot&oacute;n.</p>
+<button type='button' id='startbutton'>Comenzar el experimento</button>
+</div>
+
+<div class='slide' id='stage'>
+<p class="center-text">Presiona <em>'SPACE'</em> para avanzar a la palabra siguiente.</p>
+<span id='currentStim'>{{{IF YOU SEE THIS SOMETHING IS WRONG!}}}</span>
+<p>
+<div class = 'progress'>Progreso: <span class='currSlide'>{{C}}</span>/<span class='NSlides'>{{N}}</span></div>
+</div>
+
+<div class='slide' id='question'>
+<p class = "center-text"><em>&#191;Te parece que la frase suena bien o no?</em></p>
+<p class='center-text' id='currentQuest'>{{{IF YOU SEE THIS SOMETHING IS WRONG!}}}</p>
+<table>
+<tr>
+<td id="opt0">{{OPTION 1}}</td>
+<td id="opt1">{{OPTION 2}}</td>
+</tr>
+<tr>
+<td><em>Presiona 'Q'</em></td>
+<td><em>Presiona 'P'</em></td>
+</tr>
+</table>
+<div class = 'progress'>Progreso: <span class='currSlide'>{{C}}</span>/<span class='NSlides'>{{N}}</span></div>
+</div>
+
+<div class='slide' id='correct'>
+<br>
+<p class="center-text" id="correct-notice">CORRECTO</p>
+<p class="center-text">&#161;Bien hecho!</p>
+<div class = 'progress'>Progreso: <span class='currSlide'>{{C}}</span>/<span class='NSlides'>{{N}}</span></div>
+</div>
+
+<div class='slide' id='incorrect'>
+<br>
+<p class="center-text" id="incorrect-notice">INCORRECTO</p>
+<p class="center-text">Por favor, lee las oraciones con m&aacute;s cuidado.</p>
+<div class = 'progress'>Progreso: <span class='currSlide'>{{C}}</span>/<span class='NSlides'>{{N}}</span></div>
+</div>
+
+<div class='slide' id='langInfo'>
+<h2 class="center-text">&#161;Ya falta poco!</h2>
+<p class="block-text"><em>Por favor, completa la informaci&oacute;n debajo y haz click en "Finalizar" para enviar tus respuestas. No hay respuestas correctas o incorrectas; ser&aacute;s recompensado por tu participaci&oacute;n de todos modos.</em></p>
+
+<p class="block-text">&#191;Cu&aacute;l crees que es tu lengua nativa o materna?
+<input type="text" id="langBox" /></p>
+<p class="block-text">&#191;Cu&aacute;l es tu pa&iacute;s de residencia actual?
+<input type="text" id="residBox" /></p>
+<p class="block-text">&#191;Cu&aacute;l es tu pa&iacute;s de nacimiento?
+<input type="text" id="cobBox" /></p>
+<p class="block-text">&#191;Cu&aacute;l es el pa&iacute;s de nacimiento de tus padres?
+<input type="text" id="cobParentsBox" /></p>
+
+<p class="block-text">&#191;Qu&eacute; idioma o&iacute;as en tu casa entre los 0 y 5 a&#241;os?</p>
+<form id='lang05Form'>
+<table>
+<tr>
+<td><input type='radio' class='response' name='response' id='engHome' value='english' /></td>
+<td><input type='radio' class='response' name='response' id='spaHome' value='spanish' /></td>
+<td><input type='radio' class='response' name='response' id='mixedHome' value='mixed' /></td>
+<td><input type='radio' class='response' name='response' id='otherHome' value='other' /></td>
+</tr>
+<tr>
+<td><label for='engHome'>Ingl&eacute;s</label></td>
+<td><label for='spaHome'>Espa&#241;ol</label></td>
+<td><label for='mixedHome'>Una mezcla de ingl&eacute;s y espa&#241;ol</label></td>
+<td><label for='otherHome'>Otro</label></td>
+</tr>
+</table>
+</form>
+
+<p class="block-text">&#191;Qu&eacute; idioma prefieres usar generalmente?</p>
+<form id='langPrefForm'>
+<table>
+<tr>
+<td><input type='radio' class='response' name='response' id='eng' value='english' /></td>
+<td><input type='radio' class='response' name='response' id='spa' value='spanish' /></td>
+<td><input type='radio' class='response' name='response' id='depends' value='depends' /></td>
+<td><input type='radio' class='response' name='response' id='both' value='both' /></td>
+<td><input type='radio' class='response' name='response' id='other' value='other' /></td>
+</tr>
+<tr>
+<td><label for='eng'>Ingl&eacute;s</label></td>
+<td><label for='spa'>Espa&#241;ol</label></td>
+<td><label for='depends'>Depende con qui&eacute;n est&eacute; hablando</label></td>
+<td><label for='both'>Ambos</label></td>
+<td><label for='other'>Otro</label></td>
+</tr>
+</table>
+</form>
+
+<p class="block-text">&#191;Has le&iacute;do las instrucciones y crees que has realizado este HIT correctamente?</p>
+<form id='instrForm'>
+<table>
+<tr>
+<td><input type='radio' class='response' name='response' id='instrno' value='no' /></td>
+<td><input type='radio' class='response' name='response' id='instryes' value='yes' /></td>
+<td><input type='radio' class='response' name='response' id='instrconfused' value='confused' /></td>
+</tr>
+<tr>
+<td><label for='instrno'>No</label></td>
+<td><label for='instryes'>S&iacute;</label></td>
+<td><label for='instrconfused'>No lo s&eacute;</label></td>
+</tr>
+</table>
+</form>
+
+<p class="block-text">&#191;Cu&aacute;l es tu mano dominante (la mano con la que escribes)?</p>
+<form id='handForm'>
+<table>
+<tr>
+<td><input type='radio' class='response' name='response' id='lefthand' value='left' /></td>
+<td><input type='radio' class='response' name='response' id='righthand' value='right' /></td>
+</tr>
+<tr>
+<td><label for='lefthand'>Izquierda</label></td>
+<td><label for='righthand'>Derecha</label></td>
+</tr>
+</table>
+</form>
+
+<p class="block-text">Edad:
+<input type="text" id="ageBox" /></p>
+
+<p class="block-text">G&eacute;nero:
+<select id='genderMenu'>
+	<option value='none'> </option>
+	<option value='Male'>Masculino</option>
+	<option value='Female'>Femenino</option>
+	<option value='Other'>Otro</option>
+</select></p>
+
+<p class="block-text">Educaci&oacute;n:
+<select id='educMenu'>
+	<option value='none'> </option>
+	<option value='some-hs'>Secundario incompleto</option>
+	<option value='hs'>Secundario completo</option>
+	<option value='some-college'>Terciario/universitario incompleto</option>
+	<option value='college'>Terciario/universitario completo</option>
+	<option value='some-grad'>Posgrado incompleto</option>
+	<option value='some-grad'>Posgrado completo</option>
+</select></p>
+
+<p class="block-text">Nos interesa tu opini&oacute;n sobre este experimento. Por favor, escribe los comentarios que tengas aqu&iacute; abajo:</p>
+<textarea id="commentsText" rows=5 cols=95></textarea>
+
+<br><br>
+<button type='button' id='endbutton'>Finalizar</button>
+<span id="langError" class='error'><br><br>ERROR: Debes ingresar tu lengua materna.</span>
+<span id="residError" class='error'><br><br>ERROR: Debes ingresar tu pa&iacute;s de residencia.</span>
+<span id="cobError" class='error'><br><br>ERROR: Debes ingresar tu pa&iacute;s de nacimiento.</span>
+<span id="cobParentsError" class='error'><br><br>ERROR: Debes ingresar el pa&iacute;s de nacimiento de tus padres.</span>
+<span id="lang05ResponseError" class='error'><br><br>ERROR: Debes especificar qu&eacute; idioma o&iacute;as en tu casa entre los 0 y 5 a&#241;os.</span>
+<span id="langPrefResponseError" class='error'><br><br>ERROR: Debes especificar qu&eacute; idioma prefieres usar.</span>
+<span id="instrResponseError" class='error'><br><br>ERROR: Debes especificar si has le&iacute;do las instrucciones.</span>
+<!-- <span id="genderError" class='error'><br><br>ERROR: Debes seleccionar tu g&eacute;nero.</span>
+<span id="ageError" class='error'><br><br>ERROR: Debes ingresar tu edad.</span>
+<span id="educError" class='error'><br><br>ERROR: Debes seleccionar tu nivel de educaci&oacute;n.</span> -->
+<span id="handError" class='error'><br><br>ERROR: Debes seleccionar tu mano dominante.</span>
+</div>
+
+<div class='slide' id='finish'>
+<p class="center-text">Has terminado - &#161;Gracias por participar!</p>
+<p class="center-text">Enviando a Mechanical Turk...</p>
+</div>
+
+</body>
+</html>
