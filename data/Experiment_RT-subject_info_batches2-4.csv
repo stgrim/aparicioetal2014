@@ -1,0 +1,19 @@
+workerid,instr,langPref,language,lang05,gender,age,handedness,education,comments,countryParents,residence,country
+0,yes,spanish,spanish,spanish,Male,25,right,college,,Mexico,USA,Mexico
+1,yes,english,english,mixed,Male,27,right,some-grad,,Honduras,Estados Unidos,Estados Unidos
+2,yes,spanish,spanish,spanish,Male,23,right,some-college,,Venezuela,Venezuela,Venezuela
+3,yes,depends,both,mixed,Female,27,left,some-grad,Fue intersante. Muchas gracias por la oportunidad,Puerto Rico,Puerto Rico,Estados unidos
+4,yes,depends,spanish,spanish,Female,40,right,some-college,muy bueno e interesante,mexico,USA,mexico
+5,yes,depends,espanol,spanish,Male,33,left,some-college,,venezuela,venezuela,venezuela
+6,yes,both,espanol,spanish,Female,22,right,college,Me gusto mucho; sigan haciendo mas,venezuela,venezuela,venezuela
+7,yes,depends,espanol y ingles,spanish,Male,29,right,some-college,,mexico,estados unidos,mexico
+8,yes,spanish,US,spanish,Male,,right,hs,,US,US,US
+9,yes,both,Espanol,spanish,Female,22,left,college,Ningun comentario,Colombia,USA,USA
+10,yes,english,English/Spanish,english,Male,27,left,some-grad,,USA,USA,USA
+11,yes,depends,ingles,english,Male,32,right,college,,eeuu,eeuu,eeuu
+12,yes,depends,espanol,spanish,Female,32,right,college,,cuba,estados unidos,estados unidos
+13,yes,depends,ingles,spanish,Male,36,right,college,,Espana,USA,USA
+14,confused,depends,Espanol,mixed,Female,53,right,some-college,,Mexico,USA,USA
+15,yes,spanish,espanol,spanish,Male,35,right,some-college,El experimiento me parecio muy claro rapido y facil. muchas gracias.,republica dominicana,republica dominicana,republica dominicana
+16,yes,both,Ingles y Espanol,mixed,Female,51,right,some-college,Fue una tarea muy interesante y disfrute participar en la encuesta.,Estados Unidos,Estados Unidos de America,Estados Unidos
+17,yes,depends,Espanol,spanish,Male,34,right,some-grad,"En tus oraciones de practica hay varias que estan mal dichas y no se usarian ni aprendiendo a hablar espanol y que ustedes indican que son validas. Esto llevaria a responder mal preguntas bien y viceversa; dada la tendencia del ser humano de dejarse llevar por lo que indica la mayoria, asi sea un error garrafal.",Colombia,Colombia,Colombia
